@@ -102,4 +102,32 @@ button:hover{
     background-color: rgb(212, 255, 0);
 }
 
-/* https://media.istockphoto.com/photos/office-supplies-money-documents-keyboard-on-a-gray-background-picture-id1302822120?k=20&m=1302822120&s=612x612&w=0&h=wq6k1Y4MfsKL5jYViSo0RK5zL05B4ALTVcDYvp1APP0= */
+
+@media screen and (max-width: 500px){
+   
+   body{
+     padding: 0;
+     margin: 0;
+   }
+
+   .container{
+     display:flex;
+     justify-content:center;
+     align-content:center;
+     width: 100%;
+     height:auto;
+     
+   }
+
+   
+    button{
+    margin: 20px 18px;
+      width:100px;
+    }
+
+   input:placeholder-shown{
+     font-size:1.2em;
+   }
+ }
+
+
