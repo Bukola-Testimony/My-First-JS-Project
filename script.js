@@ -6,6 +6,9 @@ function loginUser() {
  if(userName == null || userName == "" ){
     return
   }
+  else if(userName.length <= 10 && password === "" && confirmPassword === ""){
+    alert(`Please enter password`)
+  }
   else if(userName.length <= 10 && password === confirmPassword){
     alert(`Hello ${userName}, login successful!`)
   }
